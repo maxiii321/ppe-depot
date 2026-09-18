@@ -1,16 +1,17 @@
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "server.js"
-    }
-  ]
-}
-module.exports = app;
+(
+echo {
+echo   "version": 2,
+echo   "builds": [
+echo     {
+echo       "src": "server.js",
+echo       "use": "@vercel/node"
+echo     }
+echo   ],
+echo   "routes": [
+echo     {
+echo       "src": "/(.*)",
+echo       "dest": "server.js"
+echo     }
+echo   ]
+echo }
+) > vercel.json
