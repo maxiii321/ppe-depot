@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PPE Depot - Shopping Basket</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f9; margin: 0; padding: 40px 20px; }
+    .basket-container { max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    h2 { margin-top: 0; color: #1e293b; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+    th, td { text-align: left; padding: 12px; border-bottom: 1px solid #e2e8f0; }
+    th { background-color: #f8fafc; color: #64748b; font-size: 14px; }
+    .total-row { font-size: 18px; font-weight: bold; text-align: right; }
+    .btn-checkout { display: inline-block; padding: 12px 24px; background-color: #16a34a; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; float: right; }
+    .btn-checkout:hover { background-color: #15803d; }
+  </style>
+</head>
+<body>
+  <div class="basket-container">
+    <h2>Your Basket</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Qty</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Safety Helmet (Yellow)</td>
+          <td>2</td>
+          <td>£12.50</td>
+          <td>£25.00</td>
+        </tr>
+        <tr>
+          <td>Heavy Duty Work Boots</td>
+          <td>1</td>
+          <td>£45.00</td>
+          <td>£45.00</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="total-row">Total: £70.00</p>
+    <a href="/checkout.html" class="btn-checkout">Proceed to Checkout &rarr;</a>
+  </div>
+</body>
+</html>
