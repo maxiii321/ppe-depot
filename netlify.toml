@@ -1,8 +1,5 @@
-[build]
-  command = "npm rebuild"
-  functions = "netlify/functions"
+[[plugins]]
+  package = "@netlify/plugin-express"
 
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/api"
-  status = 200
+[build]
+  publish = "public"
