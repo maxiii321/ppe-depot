@@ -1,5 +1,5 @@
-[[plugins]]
-  package = "@netlify/plugin-express"
-
 [build]
   publish = "public"
+
+[[plugins]]
+  package = "@netlify/plugin-express"
