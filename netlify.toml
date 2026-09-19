@@ -1,5 +1,7 @@
 [build]
   publish = "public"
 
-[[plugins]]
-  package = "@netlify/plugin-express"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
