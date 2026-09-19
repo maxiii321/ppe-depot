@@ -1,4 +1,5 @@
 [build]
+  command = "npm rebuild"
   functions = "netlify/functions"
 
 [[redirects]]
